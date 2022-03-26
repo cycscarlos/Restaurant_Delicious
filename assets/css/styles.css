@@ -465,9 +465,19 @@ img {
   margin-top: 3.5rem;
 }
 
-.footer__copy span {
-  color: #ff4900;
+.footer__copy a {
+  color: var(--text-color-light);
+  text-decoration: underline;
 }
+
+.footer__copy a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+/* .footer__copy span {
+  color: #ff4900;
+} */
 
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px) {
